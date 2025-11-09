@@ -20,7 +20,7 @@ app.use(express.json());
 app.use("/api", routes);
 
 app.use(cors({
-  origin: "http://localhost:3000"
+  origin: "https://purchase-system-client.vercel.app"
   
   ,
   credentials: true,
